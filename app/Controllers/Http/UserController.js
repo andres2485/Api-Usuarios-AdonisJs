@@ -7,12 +7,7 @@ class UserController {
     //store es el nombre puede ser cualquier para guardar o create
    async  crear({request,response}){
     
-      //  const {email,password} = request.all();
-       // const user = await User.create({
-         //  email,
-           // password,
-            //username:email
-        //});
+   
 
         const nombreusuario = request.input('nombreusuario');
         const apellido =request.input('apellido');
